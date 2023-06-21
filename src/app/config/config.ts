@@ -30,12 +30,14 @@ const config = convict({
     //     env: 'PORT',
     //     arg: 'port'
     // },
-    // db: {
-    //     host: {
-    //         doc: 'Database host name/IP',
-    //         format: '*',
-    //         default: 'server1.dev.test'
-    //     },
+    db: {
+        host: {
+            doc: 'Database host name/IP',
+            format: 'String',
+            default: 'DATABASE_MONGO_URL',
+            env: 'DATABASE_MONGO_URL',
+        },
+    },
     //     name: {
     //         doc: 'Database name',
     //         format: String,

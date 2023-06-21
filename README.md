@@ -61,7 +61,7 @@ yarn add ajv-errors
 ~~~
 ## Instalar Libreria mongoose
 ~~~
-yarn add -E mongoose
+yarn add mongoose
 ~~~
 ~~~
 yarn add -D @types/mongoose
@@ -161,4 +161,33 @@ yarn add -D lint-staged
 * Ejecutar comando para iniciar Husky
 ~~~
 yarn run prepare
+~~~
+## Configuracion de Docker
+~~~
+docker build -t docker-node .
+~~~
+~~~
+docker run docker-node
+~~~
+* detener contenedor
+~~~
+docker stop [nombre_contenedor]
+~~~
+* remover contenedor
+~~~
+docker rm 7b3037266dc7
+~~~
+* Ejecutar docker con todas configuraciones(puerto - nombre)
+~~~
+docker run --name DockerNodeType -p 8000:3000 docker-node
+~~~
+~~~
+docker run --name DockerNode -p 8080:3000 -v C:/Users/TuUsuario/path/to/myapp:/app -w /app -e "NODE_ENV=development" -e "PORT=3000" -d docker-node nodemon server.ts
+~~~
+## Docker Composee
+~~~
+docker-compose build
+~~~
+~~~
+docker-compose up
 ~~~
