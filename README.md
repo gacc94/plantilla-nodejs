@@ -150,6 +150,11 @@ npx eslint --cache
 ~~~
 yarn add -D husky
 ~~~
+* Personalizar con lint-staged(opcional)
 ~~~
 yarn add -D lint-staged
+~~~
+* Ejecutar comando para iniciar Husky
+~~~
+yarn run prepare
 ~~~
