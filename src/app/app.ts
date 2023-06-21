@@ -35,7 +35,7 @@ class App {
 
     listen() {
         this.app.listen(this.app.get('port'), () => {
-            console.log(`Server running por on http://localhost:${this.port}`);
+            console.log(`Server running port on http://localhost:${this.port}`);
         });
     }
 

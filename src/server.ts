@@ -1,5 +1,6 @@
 import app from './app/app';
 import database, { DBConnection } from './app/database/connection.db';
+import config from './app/config/config';
 
 class Server {
 
@@ -12,7 +13,7 @@ class Server {
     start() {
         this.db.connect().then(() => {
             app.listen();
-            console.log('Conexión exitosa a la base de datos');
+            console.log(`Connection Succesfully DB =====> ${config.get('db.host')}`);
         }).catch((err) => {
             console.log('Error', err.message);
         });
