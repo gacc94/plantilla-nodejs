@@ -83,6 +83,10 @@ yarn add express-validator express convict  cors dotenv multer nanoid mongoose b
 ~~~
 yarn add @types/express @types/express-fileupload @types/uuid @types/bcryptjs @types/cors @types/morgan @types/dotenv @types/multer @types/mongoose typescript ts-node  typescript nodemon @types/node @types/multer @types/jsonwebtoken module-alias @typegoose/typegoose -D 
 ~~~
+## Instalacion Helmet
+~~~
+yarn add helmet -S
+~~~
 ## Instalaciones Auth ()
 ~~~
 yarn add bcryptjs jsonwebtoken
@@ -98,7 +102,7 @@ yarn add prisma
 npx prisma init
 ~~~
 ~~~
-yarn add @prisma/client
+yarn add @prisma/client -D
 ~~~
 ~~~
 npx prisma generate

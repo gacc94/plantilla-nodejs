@@ -1,4 +1,5 @@
 import express, { Express } from 'express';
+import helmet from 'helmet';
 import cors from 'cors';
 import morgan from 'morgan';
 import config from './config/config';
@@ -18,6 +19,7 @@ class App {
     private middlewares() {
         this.app.set('port', this.port);
         this.app.use(cors());
+        this.app.use(helmet());
         this.app.use(morgan('dev'));
         this.app.use(express.json());
         this.routes();
