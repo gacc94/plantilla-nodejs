@@ -1,6 +1,6 @@
 // import {Observable} from "rxjs"; //* OBSERVABLES
-import config from '../config/config';
 import { connect } from 'mongoose';
+import config from '../config/config';
 
 export class DBConnection {
     public URI: string;
