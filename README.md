@@ -30,7 +30,7 @@ yarn add -D nodemon
 yarn add rxjs
 ~~~
 ## Ahora puedes comenzar a agregar las dependencias Express
-* 
+*
 ~~~
 yarn add express
 ~~~
@@ -81,7 +81,7 @@ yarn add -D @types/lodash
 yarn add express-validator express convict  cors dotenv multer nanoid mongoose bcryptjs jsonwebtoken class-transformer uuid multer morgan rxjs express-fileupload
 ~~~
 ~~~
-yarn add @types/express @types/express-fileupload @types/uuid @types/bcryptjs @types/cors @types/morgan @types/dotenv @types/multer @types/mongoose typescript ts-node  typescript nodemon @types/node @types/multer @types/jsonwebtoken module-alias @typegoose/typegoose -D 
+yarn add @types/express @types/express-fileupload @types/uuid @types/bcryptjs @types/cors @types/morgan @types/dotenv @types/multer @types/mongoose typescript ts-node  typescript nodemon @types/node @types/multer @types/jsonwebtoken module-alias
 ~~~
 ## Instalacion Helmet
 ~~~
@@ -94,6 +94,13 @@ yarn add bcryptjs jsonwebtoken
 ~~~
 yarn add @types/bcryptjs @types/jsonwebtoken -D
 ~~~ 
+## Instalaciones Typegoose(Type Mongoose)
+~~~
+yarn add typegoose 
+~~~
+~~~
+yarn add @typegoose/typegoose -D 
+~~~
 ## Instalaciones Prisma ORM
 ~~~
 yarn add prisma
