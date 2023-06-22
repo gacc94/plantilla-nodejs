@@ -1,4 +1,4 @@
-# Proyecto NodeJS(18.14.0) - Typescript (yarn) - Class - Prisma ORM  👋
+# Plantilla Proyectos NodeJs( Yarn)  👋
 
 ## nicializa un nuevo proyecto con Yarn. Esto creará un archivo package.json inicial para tu proyecto.
 ~~~
