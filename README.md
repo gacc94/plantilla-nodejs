@@ -1,6 +1,6 @@
 # Plantilla Proyectos NodeJs( Yarn)  👋
 
-## nicializa un nuevo proyecto con Yarn. Esto creará un archivo package.json inicial para tu proyecto.
+## Inicializa un nuevo proyecto con Yarn. Esto creará un archivo package.json inicial para tu proyecto.
 ~~~
 yarn init -y
 ~~~
