@@ -101,6 +101,17 @@ yarn add typegoose
 ~~~
 yarn add @typegoose/typegoose -D 
 ~~~
+## Instalaciones Type-ORM
+~~~
+yarn add typeorm --save
+~~~
+~~~
+yarn add @types/node -D
+~~~
+* Postgresql Driver
+~~~
+yarn add pg
+~~~
 ## Instalaciones Prisma ORM
 ~~~
 yarn add prisma
